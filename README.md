@@ -40,7 +40,7 @@ e retorne um json estruturado da seguinte forma:
 ```
 
 Você pode usar qualquer linguagem de programação para o desafio. Abaixo a lista de linguagens que nós aqui da CA temos mais afinidade:
-- JavaScript (NodeJS)
+- JavaScript
 - Python
 - Go
 - Ruby
@@ -51,7 +51,7 @@ Você pode usar qualquer _framework_. Se a sua escolha for por um _framework_ qu
 
 ## Requisitos
 
-* Forkar esse desafio e criar o seu projeto (ou workspace) usando a sua versão desse repositório, tão logo acabe o desafio, submeta um *pull request*.
+* Forkar esse desafio e criar o seu projeto (ou workspace) usando a sua versão desse repositório, tão logo acabe o desafio, submeta um *pull request* usando a branch resolucoes.
 * O campo titulo deve ser identico ao item do feed;
 * O campo links deve ser identico ao item do feed;
 * O campo description deve ser estruturado da seguinte forma: 
