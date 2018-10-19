@@ -51,5 +51,5 @@ for ($i = 0; $i < $item->length; $i++) {
 }
 
 array_walk_recursive($output, function(&$v) { $v = strip_tags($v); }); // html tags
-echo "<pre>".print_r($output, 'utf-8');"</pre>"; //ou json se desejar
+echo json_encode($output, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 ?>
